@@ -55,12 +55,6 @@
          "id":5,
          "name":"Collisions",
          "opacity":1,
-         "properties":[
-                {
-                 "name":"collision",
-                 "type":"bool",
-                 "value":true
-                }],
          "type":"tilelayer",
          "visible":true,
          "width":40,
@@ -103,7 +97,7 @@
                  "id":0,
                  "properties":[
                         {
-                         "name":"collision",
+                         "name":"collides",
                          "type":"bool",
                          "value":true
                         }]
@@ -112,7 +106,7 @@
                  "id":1,
                  "properties":[
                         {
-                         "name":"collision",
+                         "name":"collides",
                          "type":"bool",
                          "value":true
                         }]
@@ -121,7 +115,7 @@
                  "id":2,
                  "properties":[
                         {
-                         "name":"collision",
+                         "name":"collides",
                          "type":"bool",
                          "value":true
                         }]
@@ -130,7 +124,7 @@
                  "id":3,
                  "properties":[
                         {
-                         "name":"collision",
+                         "name":"collides",
                          "type":"bool",
                          "value":true
                         }]
@@ -139,7 +133,7 @@
                  "id":4,
                  "properties":[
                         {
-                         "name":"collision",
+                         "name":"collides",
                          "type":"bool",
                          "value":true
                         }]
@@ -148,7 +142,7 @@
                  "id":5,
                  "properties":[
                         {
-                         "name":"collision",
+                         "name":"collides",
                          "type":"bool",
                          "value":true
                         }]
