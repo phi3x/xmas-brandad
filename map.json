@@ -1,4 +1,11 @@
 { "compressionlevel":-1,
+ "editorsettings":
+    {
+     "export":
+        {
+         "target":"."
+        }
+    },
  "height":40,
  "infinite":false,
  "layers":[
@@ -55,7 +62,7 @@
          "height":40,
          "id":5,
          "name":"Collisions",
-         "opacity":1,
+         "opacity":0,
          "type":"tilelayer",
          "visible":true,
          "width":40,
@@ -77,7 +84,7 @@
  "nextobjectid":1,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"1.5.0",
+ "tiledversion":"2021.02.15",
  "tileheight":32,
  "tilesets":[
         {
