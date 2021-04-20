@@ -107,9 +107,9 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"openWebsite",
+                 "name":"openPicture",
                  "type":"string",
-                 "value":"https:\/\/alexbrandad.github.io\/testmap-gh-pages-first-test\/Anleitung.html"
+                 "value":"https:\/\/alexbrandad.github.io\/testmap-gh-pages-first-test\/Anleitung.png"
                 }],
          "type":"tilelayer",
          "visible":true,
