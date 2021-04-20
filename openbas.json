@@ -73,7 +73,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/brandad.sharepoint.com\/:p:\/r\/sites\/OpenBAS\/_layouts\/15\/doc2.aspx?sourcedoc=%7BFAD44864-34A1-42D0-9930-CA7384F10632%7D&file=2020-03-25%20Remote%20OpenBAS.pptx&action=edit&mobileredirect=true&wdPreviousSession=3ed1fe5b-9763-4e06-993f-94c1a9eece02&wdOrigin=TEAMS-ELECTRON.teams.undefined"
+                 "value":"https:\/\/brandad.sharepoint.com\/sites\/OpenBAS\/_layouts\/15\/Doc.aspx?sourcedoc={fad44864-34a1-42d0-9930-ca7384f10632}&amp;action=embedview&amp;wdAr=1.7770833333333333"
                 }],
          "type":"tilelayer",
          "visible":true,
