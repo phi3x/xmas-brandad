@@ -24,7 +24,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"https:\/\/workadventure.brandad-systems.de\/_\/global\/brandad-systems.github.io\/workadventure-maps\/etage4\/etage4.json#start-etage3"
+                 "value":"https:\/\/workadventure.brandad-systems.de\/_\/global\/brandad-systems.github.io\/workadventure-maps\/etage4-kantine\/etage4-kantine.json#start-etage3"
                 }],
          "type":"tilelayer",
          "visible":true,
