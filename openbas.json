@@ -2304,11 +2304,11 @@
         {
          "columns":16,
          "firstgid":7111,
-         "image":"..\/workadventure\/maps\/Floor0\/walls2.png",
+         "image":"walls2.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
-         "name":"walls",
+         "name":"walls2",
          "spacing":0,
          "tilecount":256,
          "tileheight":32,
