@@ -828,7 +828,7 @@
         {
          "columns":16,
          "firstgid":3357,
-         "image":"..\/..\/workadventure\/maps\/Floor1\/tilesets_deviant_milkian_1.png",
+         "image":"..\/tilesets_deviant_milkian_1.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -1328,11 +1328,11 @@
         {
          "columns":16,
          "firstgid":3613,
-         "image":"..\/..\/workadventure\/maps\/Floor0\/tilesets_deviant_milkian_1.png",
+         "image":"..\/tilesets_deviant_milkian_1.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
-         "name":"office_1",
+         "name":"tilesets_deviant_milkian_1",
          "spacing":0,
          "tilecount":256,
          "tileheight":32,
