@@ -36,7 +36,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"https:\/\/workadventure.brandad-systems.de\/_\/global\/brandad-systems.github.io\/workadventure-maps\/etage1\/etage1.json#start-eg"
+                 "value":"https:\/\/workadventure.brandad-systems.de\/_\/global\/brandad-systems.github.io\/workadventure-maps\/etage1\/etage1.json#start-etage1"
                 }],
          "type":"tilelayer",
          "visible":true,
