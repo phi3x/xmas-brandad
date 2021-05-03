@@ -12,7 +12,7 @@
                 {
                  "name":"jitsiRoom",
                  "type":"string",
-                 "value":"Besprechung-1.OG"
+                 "value":"Besprechung"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -30,7 +30,7 @@
                 {
                  "name":"jitsiRoom",
                  "type":"string",
-                 "value":"PeerToPeer-1.OG"
+                 "value":"PeerToPeer"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -892,19 +892,6 @@
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
-         "tiles":[
-                {
-                 "animation":[
-                        {
-                         "duration":100,
-                         "tileid":41
-                        }, 
-                        {
-                         "duration":100,
-                         "tileid":42
-                        }],
-                 "id":41
-                }],
          "tilewidth":32
         }, 
         {
