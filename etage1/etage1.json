@@ -1460,12 +1460,30 @@
          "tilewidth":32
         }, 
         {
+         "columns":4,
          "firstgid":4711,
-         "source":"..\/parquet.json"
+         "image":"..\/parquet.png",
+         "imageheight":128,
+         "imagewidth":128,
+         "margin":0,
+         "name":"parquet",
+         "spacing":0,
+         "tilecount":16,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":2,
          "firstgid":4727,
-         "source":"..\/FloorTile_S.json"
+         "image":"..\/FloorTile_S.jpg",
+         "imageheight":64,
+         "imagewidth":64,
+         "margin":0,
+         "name":"FloorTile_S",
+         "spacing":0,
+         "tilecount":4,
+         "tileheight":32,
+         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
