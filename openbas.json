@@ -235,7 +235,7 @@
          "height":55,
          "id":5,
          "name":"Collisions",
-         "opacity":0,
+         "opacity":1,
          "type":"tilelayer",
          "visible":true,
          "width":65,
@@ -2283,6 +2283,19 @@
                          "value":true
                         }]
                 }],
+         "tilewidth":32
+        }, 
+        {
+         "columns":16,
+         "firstgid":6791,
+         "image":"tiles_png\/Interiors_free_32x32.png",
+         "imageheight":2848,
+         "imagewidth":512,
+         "margin":0,
+         "name":"Interiors_free_32x32",
+         "spacing":0,
+         "tilecount":1424,
+         "tileheight":32,
          "tilewidth":32
         }],
  "tilewidth":32,
