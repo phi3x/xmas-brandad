@@ -10,6 +10,11 @@
          "opacity":1,
          "properties":[
                 {
+                 "name":"jitsiConfig",
+                 "type":"string",
+                 "value":"{\"startWithAudioMuted\":false,\"startAudioMuted\":20,\"disableJoinLeaveSounds\":true}"
+                }, 
+                {
                  "name":"jitsiRoom",
                  "type":"string",
                  "value":"Besprechung"
@@ -27,6 +32,11 @@
          "name":"jitsi-p2p",
          "opacity":1,
          "properties":[
+                {
+                 "name":"jitsiConfig",
+                 "type":"string",
+                 "value":"{\"startWithAudioMuted\":false,\"startAudioMuted\":20,\"disableJoinLeaveSounds\":true}"
+                }, 
                 {
                  "name":"jitsiRoom",
                  "type":"string",

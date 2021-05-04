@@ -18,6 +18,11 @@
          "opacity":1,
          "properties":[
                 {
+                 "name":"jitsiConfig",
+                 "type":"string",
+                 "value":"{\"startWithAudioMuted\":false,\"startAudioMuted\":20,\"disableJoinLeaveSounds\":true}"
+                }, 
+                {
                  "name":"jitsiRoom",
                  "type":"string",
                  "value":"Amphitheater"
@@ -56,7 +61,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"https:\/\/workadventure.brandad-systems.de\/_\/global\/brandad-systems.github.io\/workadventure-maps\/openbas.json"
+                 "value":"https:\/\/workadventure.brandad-systems.de\/_\/global\/brandad-systems.github.io\/workadventure-maps\/openbas.json#start-amphitheater"
                 }],
          "type":"tilelayer",
          "visible":true,
