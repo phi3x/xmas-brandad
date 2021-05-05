@@ -61,7 +61,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":".\/openbas.json#start-amphitheater"
+                 "value":"..\/openbas.json#start-amphitheater"
                 }],
          "type":"tilelayer",
          "visible":true,

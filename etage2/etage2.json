@@ -81,7 +81,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":".\/etage3\/etage3.json#start-etage2"
+                 "value":"..\/etage3\/etage3.json#start-etage2"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -99,7 +99,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":".\/etage1\/etage1.json#start-etage2"
+                 "value":"..\/etage1\/etage1.json#start-etage2"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -117,7 +117,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":".\/etage3\/etage3.json#start-spiral-etage2"
+                 "value":"..\/etage3\/etage3.json#start-spiral-etage2"
                 }],
          "type":"tilelayer",
          "visible":true,

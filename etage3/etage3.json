@@ -81,7 +81,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":".\/etage4-kantine\/etage4-kantine.json#start-etage3"
+                 "value":"..\/etage4-kantine\/etage4-kantine.json#start-etage3"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -99,7 +99,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":".\/etage2\/etage2.json#start-etage3"
+                 "value":"..\/etage2\/etage2.json#start-etage3"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -117,7 +117,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":".\/etage2\/etage2.json#start-spiral-etage3"
+                 "value":"..\/etage2\/etage2.json#start-spiral-etage3"
                 }],
          "type":"tilelayer",
          "visible":true,
