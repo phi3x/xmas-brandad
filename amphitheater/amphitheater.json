@@ -61,7 +61,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"https:\/\/workadventure.brandad-systems.de\/_\/global\/brandad-systems.github.io\/workadventure-maps\/openbas.json#start-amphitheater"
+                 "value":".\/openbas.json#start-amphitheater"
                 }],
          "type":"tilelayer",
          "visible":true,

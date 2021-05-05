@@ -140,7 +140,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"https:\/\/workadventure.brandad-systems.de\/_\/global\/jonnytest1.github.io\/workadventuremap\/map.json#start-bas"
+                 "value":"\/_\/global\/jonnytest1.github.io\/workadventuremap\/map.json#start-bas"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -158,7 +158,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"https:\/\/workadventure.brandad-systems.de\/_\/global\/brandad-systems.github.io\/workadventure-maps\/etage1\/etage1.json#start-eg"
+                 "value":".\/etage1\/etage1.json#start-eg"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -260,7 +260,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"https:\/\/workadventure.brandad-systems.de\/_\/global\/brandad-systems.github.io\/workadventure-maps\/amphitheater\/amphitheater.json#start-bas"
+                 "value":".\/amphitheater\/amphitheater.json#start-bas"
                 }],
          "type":"tilelayer",
          "visible":true,

@@ -81,7 +81,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"https:\/\/workadventure.brandad-systems.de\/_\/global\/brandad-systems.github.io\/workadventure-maps\/etage2\/etage2.json#start-etage1"
+                 "value":".\/etage2\/etage2.json#start-etage1"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -99,7 +99,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"https:\/\/workadventure.brandad-systems.de\/_\/global\/brandad-systems.github.io\/workadventure-maps\/openbas.json#start-etage1"
+                 "value":".\/openbas.json#start-etage1"
                 }],
          "type":"tilelayer",
          "visible":true,
