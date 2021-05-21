@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.5.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" infinite="0" nextlayerid="6" nextobjectid="1">
+<map version="1.5" tiledversion="1.6.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" infinite="0" nextlayerid="6" nextobjectid="1">
  <editorsettings>
   <export target="amphitheater.json" format="json"/>
  </editorsettings>
+ <properties>
+  <property name="script" value="https://jonnytest1.github.io/workadventuremap/scripts/index.js?url=./user-update.js"/>
+ </properties>
  <tileset firstgid="1" source="tilesets/32x32_map_tile v3.1.tsx"/>
  <tileset firstgid="668" source="tilesets/customtileset.tsx"/>
  <tileset firstgid="1588" source="tilesets/Room_Builder_free_32x32.tsx"/>
