@@ -20,7 +20,7 @@
                 {
                  "name":"jitsiConfig",
                  "type":"string",
-                 "value":"{\"startWithAudioMuted\":false,\"startAudioMuted\":20,\"disableJoinLeaveSounds\":true}"
+                 "value":"{\"startWithAudioMuted\":false,\"startAudioMuted\":20,\"disableJoinLeaveSounds\":true,\"startVideoMuted\":20,\"startWithVideoMuted\":false}"
                 }, 
                 {
                  "name":"jitsiRoom",
