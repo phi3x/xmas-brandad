@@ -101,7 +101,7 @@
                 {
                  "name":"jitsiInterfaceConfig",
                  "type":"string",
-                 "value":"{\"DISABLE_FOCUS_INDICATOR\":true, \"DEFAULT_LOGO_URL\":https:\/\/www.brandad-systems.de\/images\/_logos\/BAS_Logo.svg}"
+                 "value":"{\"DISABLE_FOCUS_INDICATOR\":true, \"DEFAULT_LOGO_URL\":\"https:\/\/www.brandad-systems.de\/images\/_logos\/BAS_Logo.svg\"}"
                 }, 
                 {
                  "name":"jitsiRoom",
