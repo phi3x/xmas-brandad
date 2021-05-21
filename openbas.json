@@ -17,7 +17,7 @@
                 {
                  "name":"jitsiInterfaceConfig",
                  "type":"string",
-                 "value":"{ \"DEFAULT_BACKGROUND\": \"#77ee77\", DISABLE_JOIN_LEAVE_NOTIFICATIONS: true }"
+                 "value":"{\"DISABLE_FOCUS_INDICATOR\":true}"
                 }, 
                 {
                  "name":"jitsiRoom",
@@ -45,7 +45,7 @@
                 {
                  "name":"jitsiInterfaceConfig",
                  "type":"string",
-                 "value":"{ \"DEFAULT_BACKGROUND\": \"#77ee77\", DISABLE_JOIN_LEAVE_NOTIFICATIONS: true }"
+                 "value":"{\"DISABLE_FOCUS_INDICATOR\":true}"
                 }, 
                 {
                  "name":"jitsiRoom",
@@ -73,7 +73,7 @@
                 {
                  "name":"jitsiInterfaceConfig",
                  "type":"string",
-                 "value":"{ \"DEFAULT_BACKGROUND\": \"#77ee77\", DISABLE_JOIN_LEAVE_NOTIFICATIONS: true }"
+                 "value":"{\"DISABLE_FOCUS_INDICATOR\":true}"
                 }, 
                 {
                  "name":"jitsiRoom",
@@ -101,7 +101,7 @@
                 {
                  "name":"jitsiInterfaceConfig",
                  "type":"string",
-                 "value":"{ \"DEFAULT_BACKGROUND\": \"#77ee77\", DISABLE_JOIN_LEAVE_NOTIFICATIONS: true }"
+                 "value":"{\"DISABLE_FOCUS_INDICATOR\":true}"
                 }, 
                 {
                  "name":"jitsiRoom",

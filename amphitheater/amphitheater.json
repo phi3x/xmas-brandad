@@ -23,6 +23,11 @@
                  "value":"{\"startWithAudioMuted\":false,\"startAudioMuted\":20,\"disableJoinLeaveSounds\":true,\"startVideoMuted\":20,\"startWithVideoMuted\":false}"
                 }, 
                 {
+                 "name":"jitsiInterfaceConfig",
+                 "type":"string",
+                 "value":"{\"DISABLE_FOCUS_INDICATOR\":true}"
+                }, 
+                {
                  "name":"jitsiRoom",
                  "type":"string",
                  "value":"Amphitheater"
