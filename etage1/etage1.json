@@ -12,7 +12,7 @@
                 {
                  "name":"jitsiConfig",
                  "type":"string",
-                 "value":"{\"startWithAudioMuted\":false,\"startAudioMuted\":20,\"disableJoinLeaveSounds\":true,\"startVideoMuted\":20,\"startWithVideoMuted\":false}"
+                 "value":"{\"startWithAudioMuted\":false,\"startAudioMuted\":6,\"disableJoinLeaveSounds\":true,\"startVideoMuted\":26,\"startWithVideoMuted\":false}"
                 }, 
                 {
                  "name":"jitsiInterfaceConfig",
@@ -40,7 +40,7 @@
                 {
                  "name":"jitsiConfig",
                  "type":"string",
-                 "value":"{\"startWithAudioMuted\":false,\"startAudioMuted\":20,\"disableJoinLeaveSounds\":true,\"startVideoMuted\":20,\"startWithVideoMuted\":false}"
+                 "value":"{\"startWithAudioMuted\":false,\"startAudioMuted\":6,\"disableJoinLeaveSounds\":true,\"startVideoMuted\":26,\"startWithVideoMuted\":false}"
                 }, 
                 {
                  "name":"jitsiInterfaceConfig",
@@ -68,7 +68,7 @@
                 {
                  "name":"jitsiConfig",
                  "type":"string",
-                 "value":"{\"startWithAudioMuted\":false,\"startAudioMuted\":20,\"disableJoinLeaveSounds\":true,\"startVideoMuted\":20,\"startWithVideoMuted\":false}"
+                 "value":"{\"startWithAudioMuted\":false,\"startAudioMuted\":6,\"disableJoinLeaveSounds\":true,\"startVideoMuted\":26,\"startWithVideoMuted\":false}"
                 }, 
                 {
                  "name":"jitsiInterfaceConfig",
