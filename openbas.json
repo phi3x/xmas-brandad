@@ -73,7 +73,7 @@
                 {
                  "name":"jitsiInterfaceConfig",
                  "type":"string",
-                 "value":"{ \"DEFAULT_BACKGROUND\": \"#FF0000\", DISABLE_FOCUS_INDICATOR:true }"
+                 "value":"{\"DEFAULT_BACKGROUND\": \"#FF0000\", \"DISABLE_FOCUS_INDICATOR\":true}"
                 }, 
                 {
                  "name":"jitsiRoom",
@@ -101,7 +101,7 @@
                 {
                  "name":"jitsiInterfaceConfig",
                  "type":"string",
-                 "value":"{ \"DEFAULT_BACKGROUND\": \"#FF0000\", DISABLE_JOIN_LEAVE_NOTIFICATIONS:true }"
+                 "value":"{\"DEFAULT_BACKGROUND\": \"#FF0000\", \"DISABLE_JOIN_LEAVE_NOTIFICATIONS\":true}"
                 }, 
                 {
                  "name":"jitsiRoom",
