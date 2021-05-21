@@ -101,7 +101,7 @@
                 {
                  "name":"jitsiInterfaceConfig",
                  "type":"string",
-                 "value":"{ \"DEFAULT_BACKGROUND\": \"#77ee77\", DISABLE_JOIN_LEAVE_NOTIFICATIONS:true }"
+                 "value":"{ \"DEFAULT_BACKGROUND\": \"#FF0000\", DISABLE_JOIN_LEAVE_NOTIFICATIONS:true }"
                 }, 
                 {
                  "name":"jitsiRoom",
