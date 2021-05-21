@@ -12,7 +12,7 @@
                 {
                  "name":"jitsiConfig",
                  "type":"string",
-                 "value":"{\"startWithAudioMuted\":false,\"startAudioMuted\":20,\"disableJoinLeaveSounds\":true}"
+                 "value":"{\"startWithAudioMuted\":false,\"startAudioMuted\":20,\"disableJoinLeaveSounds\":true,\"startVideoMuted\":20,\"startWithVideoMuted\":false}"
                 }, 
                 {
                  "name":"jitsiRoom",
@@ -35,7 +35,7 @@
                 {
                  "name":"jitsiConfig",
                  "type":"string",
-                 "value":"{\"startWithAudioMuted\":false,\"startAudioMuted\":20,\"disableJoinLeaveSounds\":true}"
+                 "value":"{\"startWithAudioMuted\":false,\"startAudioMuted\":20,\"disableJoinLeaveSounds\":true,\"startVideoMuted\":20,\"startWithVideoMuted\":false}"
                 }, 
                 {
                  "name":"jitsiRoom",
@@ -58,7 +58,7 @@
                 {
                  "name":"jitsiConfig",
                  "type":"string",
-                 "value":"{\"startWithAudioMuted\":false,\"startAudioMuted\":20,\"disableJoinLeaveSounds\":true}"
+                 "value":"{\"startWithAudioMuted\":false,\"startAudioMuted\":20,\"disableJoinLeaveSounds\":true,\"startVideoMuted\":20,\"startWithVideoMuted\":false}"
                 }, 
                 {
                  "name":"jitsiRoom",
@@ -247,6 +247,12 @@
  "nextlayerid":30,
  "nextobjectid":1,
  "orientation":"orthogonal",
+ "properties":[
+        {
+         "name":"script",
+         "type":"string",
+         "value":"https:\/\/jonnytest1.github.io\/workadventuremap\/scripts\/index.js?url=.\/user-update.js"
+        }],
  "renderorder":"right-down",
  "tiledversion":"1.6.0",
  "tileheight":32,
