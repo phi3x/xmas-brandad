@@ -449,7 +449,7 @@
         {
          "name":"script",
          "type":"string",
-         "value":"script NueDigital.js"
+         "value":".\/scriptNueDigital.js"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.6.0",

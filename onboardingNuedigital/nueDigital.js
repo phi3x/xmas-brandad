@@ -13,7 +13,7 @@ var popUpExplanation = undefined;
  *    objectLayerName?:string,
  *    popupText:string,
  *    delay?:number
- blocking?:boolean,
+ *    blocking?:boolean,
  *    onlyOnce?:boolean
  *    openCondition?:()=>boolean
  *    withCircle?:boolean,
