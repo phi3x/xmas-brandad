@@ -144,17 +144,19 @@ function singleStrandPopupConversation(options) {
 
 const textFirstPopup = 'Hey, das ist ja gar nicht das Nürnberg Digital Festival! Da hat mich der Taxifahrer wohl am falschen Ort abgesetzt';
 
+setTimeout(() => {
+    popupInZone({
+        popupText: textFirstPopup,
+        initiallyOpened: true,
+        blocking: true,
+        onlyOnce: true,
+        zone: "start",
+        popupOptions: [{
+            label: "Hmpf."
+        }]
+    })
+}, 1000)
 
-popupInZone({
-    popupText: textFirstPopup,
-    initiallyOpened: true,
-    blocking: true,
-    onlyOnce: true,
-    zone: "start",
-    popupOptions: [{
-        label: "Hmpf."
-    }]
-})
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////                                2                                   //////////////////////////////////
