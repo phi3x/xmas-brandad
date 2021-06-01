@@ -326,17 +326,8 @@
          "tilewidth":32
         }, 
         {
-         "columns":16,
          "firstgid":2395,
-         "image":"..\/TilesNueDigital\/Zeichenflaeche_2.png",
-         "imageheight":24336,
-         "imagewidth":512,
-         "margin":0,
-         "name":"Zeichenflaeche_2",
-         "spacing":0,
-         "tilecount":12160,
-         "tileheight":32,
-         "tilewidth":32
+         "source":"..\/TilesNueDigital\/Zeichenflaeche_2.tsx"
         }, 
         {
          "columns":1,
