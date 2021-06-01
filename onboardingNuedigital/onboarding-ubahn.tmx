@@ -168,7 +168,7 @@
  </layer>
  <layer id="3" name="exit-office" width="51" height="56">
   <properties>
-   <property name="exitUrl" value="../onboardingNuedigital/onboarding.tmx#start-teleporter-beach"/>
+   <property name="exitUrl" value="../onboardingNuedigital/onboarding.json#start-teleporter-beach"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
