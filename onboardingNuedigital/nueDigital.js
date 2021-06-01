@@ -27,9 +27,7 @@ var popUpExplanation = undefined;
  */
 function popupInZone(options) {
     let lastOpened = 0;
-    /**
-     * @type {Popup}
-     */
+
     let popup;
     if(!options.objectLayerName) {
         options.objectLayerName = options.zone;
