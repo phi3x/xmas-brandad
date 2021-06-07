@@ -19,6 +19,7 @@ const imports = Promise.all([require("./popup-zone")])
  * 
  * @typedef {{
  *      message:string,
+ *      onDisplay?:()=>void,
  *      resumeMainIndex?:boolean
  *      exhaustOptionsBeforeContinue?:boolean
  *      buttons:Array<ButtonElement|string>|string
@@ -229,7 +230,13 @@ async function multiStrandedPopupConversation(options) {
             withCircle: options.withCircle,
             popupText: currentIndexData.message,
             initiallyOpened: conversationPos.length > 1 || conversationPos[0] > 0,
-            openCondition: () => JSON.stringify(options._conversationIndex) == JSON.stringify(conversationPos),
+            openCondition: () => {
+                const shouldOpen = JSON.stringify(options._conversationIndex) == JSON.stringify(conversationPos);
+                if(shouldOpen && currentIndexData.onDisplay) {
+                    currentIndexData.onDisplay()
+                }
+                return shouldOpen;
+            },
             popupOptions: popupOptions
         });
     }
