@@ -94,6 +94,6 @@ if(!document.body) {
     });
 } else {
     for(let requireUrl of url.split(',')) {
-        importScripts(requireUrl);
+        importScript(requireUrl);
     }
 }
