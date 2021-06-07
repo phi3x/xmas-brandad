@@ -80,7 +80,7 @@ async function importScript(scriptLoadUrl) {
     return loadingSCriptsMap[newSrc.href];
 };
 
-//@ts-ignore
+
 window.importScript = importScript
 // @ts-ignore
 window.require = importScript;
