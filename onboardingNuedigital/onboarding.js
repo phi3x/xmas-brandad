@@ -1,16 +1,14 @@
 ///<reference path="../../workadventure/front/src/iframe_api.ts" />
 /// <reference path="../script/script-loader.js" />
 
-const tutorialMap = "/_/global/brandad-systems.github.io/workadventure-maps/openbas.json"
 
 scriptNesting(Promise.all([
     require("../script/popup-zone"),
     require("../script/conversation"),
+    require("./menu-item"),
     new Promise(res => setTimeout(res, 1500))
 ]), async imports => {
-    WA.registerMenuCommand("Skip Tutorial", () => {
-        WA.exitSceneTo(tutorialMap)
-    })
+
     const [{ popupInZone }, { singleStrandedPopupConversation, multiStrandedPopupConversation }] = await imports
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
