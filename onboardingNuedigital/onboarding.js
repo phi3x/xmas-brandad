@@ -36,7 +36,7 @@ scriptNesting(Promise.all([
 
     popupInZone({
         zone: "call-player",
-        openCondition: () => callPlayerPopupIndex == 0,
+        openCondition: () => callPlayerPopupIndex++ == 0,
         popupText: 'Hallo, hier drüben! Komm doch mal kurz in meinen Kreis, damit ich mit dir sprechen kann!',
         initiallyOpened: true,
         popupOptions: []

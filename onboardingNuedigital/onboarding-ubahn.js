@@ -50,7 +50,7 @@ scriptNesting(
                 }, {
                     message: "Alles andere läuft direkt hier im Browser – darunter Jitsi, Sponsoren-Webseiten oder die Programmübersicht. Hier links am Whiteboard kannst du das mal ausprobieren.",
                     buttons: [{
-                        buttonText: "Programmübersicht öffnen",
+                        buttonText: "Mach ich. Danke.",
 
                     }]
                 }
