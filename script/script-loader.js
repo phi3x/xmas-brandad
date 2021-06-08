@@ -10,6 +10,16 @@ var scriptNesting = async function(imports, callback) {
 }
 
 /**
+ * @template T
+ * @template U
+ * @param {T} imports
+ * @param {(imports:Promise<T>)=>U} callback
+ */
+var exportNesting = function(imports, callback) {
+    return callback(Promise.resolve(imports))
+}
+
+/**
  * @type {{[key:string]:Promise<any>}}
  */
 let loadingSCriptsMap = {};
