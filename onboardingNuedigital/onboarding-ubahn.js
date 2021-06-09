@@ -71,4 +71,13 @@ scriptNesting(
                 buttons: "Merke ich mir. Ciao!"
             }]
         })
+
+        multiStrandedPopupConversation({
+            zone: "start-teleporter-office",
+            blocking: true,
+            data: [{
+                message: "Das sieht schon eher nach Festival aus, aber warum ist hier niemand?",
+                buttons: "Ich schau mich mal um."
+            }]
+        })
     });

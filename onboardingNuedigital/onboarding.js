@@ -16,7 +16,7 @@ scriptNesting(Promise.all([
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-    const textFirstPopup = 'Hey, das ist ja gar nicht das Nürnberg Digital Festival! Da hat mich der Taxifahrer wohl am falschen Ort abgesetzt';
+    const textFirstPopup = 'Hey, das ist ja gar nicht das Nürnberg Digital Festival! Da hat mich der Taxifahrer wohl am falschen Ort abgesetzt.';
 
     popupInZone({
         popupText: textFirstPopup,

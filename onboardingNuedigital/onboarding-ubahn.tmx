@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.6.0" orientation="orthogonal" renderorder="right-down" width="51" height="56" tilewidth="32" tileheight="32" infinite="0" nextlayerid="28" nextobjectid="9">
+<map version="1.5" tiledversion="1.6.0" orientation="orthogonal" renderorder="right-down" width="51" height="56" tilewidth="32" tileheight="32" infinite="0" nextlayerid="28" nextobjectid="10">
  <editorsettings>
   <export target="onboarding-ubahn.json" format="json"/>
  </editorsettings>
@@ -314,6 +314,7 @@
   <layer id="18" name="start-teleporter-office" width="51" height="56">
    <properties>
     <property name="startLayer" type="bool" value="true"/>
+    <property name="zone" value="start-teleporter-office"/>
    </properties>
    <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -1169,6 +1170,7 @@
   <object id="3" name="lines" x="416" y="192" width="256" height="128"/>
   <object id="7" name="blue-line" x="1376" y="192" width="224" height="192"/>
   <object id="8" name="yellow-line" x="1152" y="96" width="320" height="160"/>
+  <object id="9" name="start-teleporter-office" x="96" y="64" width="192" height="96"/>
  </objectgroup>
  <layer id="15" name="overwrite" width="51" height="56">
   <properties>
