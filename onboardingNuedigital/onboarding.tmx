@@ -453,7 +453,7 @@
  <group id="37" name="webcam-views">
   <layer id="38" name="view-nuremberg" width="47" height="47">
    <properties>
-    <property name="openWebsite" value="http://webtv.feratel.com/webtv/?design=v4&amp;pg=DA7D2F22-8600-464D-9D4F-CDB04014A6C5&amp;cam=3020&amp;lg=de&amp;getLatest=1&amp;c1=0&amp;flc=1"/>
+    <property name="openWebsite" value="https://zugspitze.panomax.com/"/>
    </properties>
    <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,

@@ -169,7 +169,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"http:\/\/webtv.feratel.com\/webtv\/?design=v4&pg=DA7D2F22-8600-464D-9D4F-CDB04014A6C5&cam=3020&lg=de&getLatest=1&c1=0&flc=1"
+                         "value":"https:\/\/zugspitze.panomax.com\/"
                         }],
                  "type":"tilelayer",
                  "visible":true,
