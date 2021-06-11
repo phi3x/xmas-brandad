@@ -8,6 +8,12 @@
          "id":14,
          "name":"startLayer",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"zone",
+                 "type":"string",
+                 "value":"start"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":69,
