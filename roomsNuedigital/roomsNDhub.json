@@ -42,7 +42,7 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"colldies",
+                 "name":"collides",
                  "type":"bool",
                  "value":true
                 }],
