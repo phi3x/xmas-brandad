@@ -262,6 +262,12 @@
          "id":33,
          "name":"exit-festival",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"exitUrl",
+                 "type":"string",
+                 "value":"..\/roomsNuedigital\/roomsNDhub.json"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":47,
