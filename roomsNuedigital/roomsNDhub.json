@@ -15,9 +15,9 @@
                  "opacity":1,
                  "properties":[
                         {
-                         "name":"zone",
-                         "type":"string",
-                         "value":"start"
+                         "name":"startLayer",
+                         "type":"bool",
+                         "value":true
                         }],
                  "type":"tilelayer",
                  "visible":true,
