@@ -724,7 +724,7 @@
  </layer>
  <layer id="33" name="exit-festival" width="47" height="47">
   <properties>
-   <property name="exitUrl" value="../roomsNuedigital/roomsNDhub.json"/>
+   <property name="exitUrl" value="../roomsNuedigital/roomsNDhub.json#start"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,

@@ -266,7 +266,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"..\/roomsNuedigital\/roomsNDhub.json"
+                 "value":"..\/roomsNuedigital\/roomsNDhub.json#start"
                 }],
          "type":"tilelayer",
          "visible":true,
