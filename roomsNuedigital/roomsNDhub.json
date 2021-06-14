@@ -335,20 +335,56 @@
          "tilewidth":32
         }, 
         {
+         "columns":42,
          "firstgid":3343,
-         "source":"walls.tsx"
+         "image":"..\/TilesNueDigital\/Modern_Interiors\/1_Interiors\/32x32\/Room_Bulder_subfiles_32x32\/Room_Builder_borders_32x32.png",
+         "imageheight":160,
+         "imagewidth":1344,
+         "margin":0,
+         "name":"walls",
+         "spacing":0,
+         "tilecount":210,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":32,
          "firstgid":3553,
-         "source":"walls_2.tsx"
+         "image":"..\/TilesNueDigital\/Modern_Interiors\/1_Interiors\/32x32\/Room_Bulder_subfiles_32x32\/Room_Builder_Walls_32x32.png",
+         "imageheight":1280,
+         "imagewidth":1024,
+         "margin":0,
+         "name":"walls_2",
+         "spacing":0,
+         "tilecount":1280,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":42,
          "firstgid":4833,
-         "source":"floors.tsx"
+         "image":"..\/TilesNueDigital\/Modern_Interiors\/1_Interiors\/32x32\/Room_Bulder_subfiles_32x32\/Room_Builder_Floor_Paths_32x32.png",
+         "imageheight":384,
+         "imagewidth":1344,
+         "margin":0,
+         "name":"floors",
+         "spacing":0,
+         "tilecount":504,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":15,
          "firstgid":5337,
-         "source":"patterns.tsx"
+         "image":"..\/TilesNueDigital\/Modern_Interiors\/1_Interiors\/32x32\/Room_Bulder_subfiles_32x32\/Room_Builder_Floors_32x32.png",
+         "imageheight":1280,
+         "imagewidth":480,
+         "margin":0,
+         "name":"patterns",
+         "spacing":0,
+         "tilecount":600,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
          "columns":21,
