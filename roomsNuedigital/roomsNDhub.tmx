@@ -1542,8 +1542,6 @@
   </layer>
   <layer id="36" name="room1" width="69" height="83">
    <properties>
-    <property name="jitsiConfig" value="{&quot;startWithAudioMuted&quot;:false,&quot;startAudioMuted&quot;:6,&quot;disableJoinLeaveSounds&quot;:true,&quot;startVideoMuted&quot;:26,&quot;startWithVideoMuted&quot;:false}"/>
-    <property name="jitsiInterfaceConfig" value="{&quot;DISABLE_FOCUS_INDICATOR&quot;:true}"/>
     <property name="jitsiRoom" value="Room_1"/>
    </properties>
    <data encoding="csv">
