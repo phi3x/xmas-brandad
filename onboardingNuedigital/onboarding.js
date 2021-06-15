@@ -27,7 +27,7 @@ scriptNesting(Promise.all([
             buttons: ["Folgen.", {
                         buttonText: "Überspringen",
                         onclick: () => {
-                            WA.open("https://zoom.us/download")
+                            WA.openTab("https://zoom.us/download")
                         }
             }]
         }]
