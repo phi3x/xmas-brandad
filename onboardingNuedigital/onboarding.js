@@ -19,22 +19,13 @@ scriptNesting(Promise.all([
     const textFirstPopup = 'Hey, das ist ja gar nicht das Nürnberg Digital Festival! Da hat mich der Taxifahrer wohl am falschen Ort abgesetzt.';
 
     popupInZone({
-        //popupText: textFirstPopup,
+        popupText: textFirstPopup,
         blocking: true,
         onlyOnce: true,
         zone: "start-popup",
-        data: [{
-            message: textFirstPopup,
-            buttons: ["Hmpf!", {
-                        buttonText: "Tutorial überspringen!",
-                        onclick: () => {
-                            WA.openTab("https://google.de")
-                        }
-                    }]
+        popupOptions: [{
+            label: "Hmpf."
         }]
-        // popupOptions: [{
-        //     label: "Hmpf."
-        // }]
     })
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
