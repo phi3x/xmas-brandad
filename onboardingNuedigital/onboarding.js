@@ -16,16 +16,34 @@ scriptNesting(Promise.all([
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-    const textFirstPopup = 'Hey, das ist ja gar nicht das Nürnberg Digital Festival! Da hat mich der Taxifahrer wohl am falschen Ort abgesetzt.';
+    const textFirstPopup = "Hey, das ist ja gar nicht das Nürnberg Digital Festival! Da hat mich der Taxifahrer wohl am falschen Ort abgesetzt.\n\n[Tutorial folgen (~10 Minuten) oder überspringen?]";
+
+    // multiStrandedPopupConversation({
+    //     zone: "start-popup",
+    //     blocking: true,
+    //     onlyOnce: true,
+    //     data: [{
+    //         message: textFirstPopup,
+    //         buttons: ["Folgen.", {
+    //                     buttonText: "Überspringen",
+    //                     onclick: () => {
+    //                         WA.openTab("https://zoom.us/download")
+    //                     }
+    //         }]
+    //     }]
+    // })
 
     popupInZone({
         popupText: textFirstPopup,
         blocking: true,
         onlyOnce: true,
         zone: "start-popup",
-        popupOptions: [{
-            label: "Hmpf."
-        }]
+        popupOptions: [{ label: "Folgen."},
+                        { label: "Überspringen", 
+                            callback: () => {
+                                WA.goToPage("https://workadventure.brandad-systems.de/_/global/brandad-systems.github.io/workadventure-maps/onboardingNuedigital/onboarding-ubahn.json")
+                         }
+                      }]
     })
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -67,10 +85,13 @@ scriptNesting(Promise.all([
         blocking: true,
         data: [{
             onDisplay: () => {
-                WA.sendChatMessage("先海空去場劇國", "Tourist #1")
+                WA.sendChatMessage("先海空去場劇國", "Tourist #1"),
                 setTimeout(() => {
-                    WA.sendChatMessage("What a nice view! ", "Tourist #2")
-                }, 3000)
+                    WA.sendChatMessage("Kia bela vido!", "Tourist #2")
+                }, 4000),
+                setTimeout(() => {
+                    WA.sendChatMessage("Je ne comprends pas un mot !", "Tourist #3")
+                }, 8000)
             },
             message: "Ich verstehe zwar kein Wort – aber scheinbar gibt es hier auch eine Chatfunktion!",
             buttons: "Cool!",
@@ -85,11 +106,11 @@ scriptNesting(Promise.all([
             text: "Ich weiß gar nicht, wie ich hierher gekommen bin. Da war auf einmal dieses Portal …",
             option: "Ein Portal?",
         }, {
-            text: "... und ehe ich mich versah, stand ich schon hier. Mit meiner Badehose komme ich mir hier dann doch aber merkwürdig vor.",
-            option: "Kein Shirt dabei?"
+            text: "... und ehe ich mich versah, stand ich schon hier. Hast du zufällig eine Badehose für mich?",
+            option: "Leider nein."
         }, {
-            text: "Jetzt, wo du es sagst, fällt mir ein: Man kann hier einfach links oben auf das Menü klicken und unter ‚Edit Skin‘ das Aussehen verändern!",
-            option: "Cool. Ich muss dann mal ..."
+            text: "Okay, dann schaue ich mal, ob ich hier links oben im Menü unter ‚Edit Skin‘ etwas Passendes finde.",
+            option: "Viel Glück! Ich muss dann mal ..."
         }]
     })
 })
