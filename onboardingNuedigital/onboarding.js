@@ -41,7 +41,7 @@ scriptNesting(Promise.all([
         popupOptions: [{ label: "Folgen."},
                         { label: "Überspringen", 
                             callback: () => {
-                                WA.exitSceneTo(skipTutorial)
+                                WA.gotoPage("https://workadventure.brandad-systems.de/_/global/brandad-systems.github.io/workadventure-maps/onboardingNuedigital/onboarding-ubahn.json")
                          }
                       }]
     })
