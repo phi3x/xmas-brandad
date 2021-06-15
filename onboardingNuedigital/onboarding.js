@@ -41,7 +41,7 @@ scriptNesting(Promise.all([
         popupOptions: [{ label: "Folgen."},
                         { label: "Überspringen", 
                             callback: () => {
-                                WA.openTab("https://zoom.us/download")
+                                WA.open("https://zoom.us/download")
                          }
                       }]
     })
