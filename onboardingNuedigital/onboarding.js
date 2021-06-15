@@ -29,6 +29,7 @@ scriptNesting(Promise.all([
                         onclick: () => {
                             WA.open("https://zoom.us/download")
                         }
+            }]
         }]
     })
 
