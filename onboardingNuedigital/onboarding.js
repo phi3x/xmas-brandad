@@ -38,12 +38,12 @@ scriptNesting(Promise.all([
         blocking: true,
         onlyOnce: true,
         zone: "start-popup",
-        popupOptions: [label: "Folgen.", {
-                        label: "Überspringen",
-                        onclick: () => {
-                            WA.openTab("https://zoom.us/download")
-                        }
-            }]
+        popupOptions: [{ label: "Folgen."},
+                        { label: "Überspringen",
+                            onclick: () => {
+                                WA.openTab("https://zoom.us/download")
+                         }
+                      }]
     })
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
