@@ -87,8 +87,8 @@ scriptNesting(Promise.all([
             onDisplay: () => {
                 WA.sendChatMessage("先海空去場劇國", "Tourist #1"),
                 setTimeout(() => {
-                    WA.sendChatMessage("Kia bela vido!", "Tourist #2"),
-                }, 4000)
+                    WA.sendChatMessage("Kia bela vido!", "Tourist #2")
+                }, 4000),
                 setTimeout(() => {
                     WA.sendChatMessage("Je ne comprends pas un mot !", "Tourist #3")
                 }, 8000)
