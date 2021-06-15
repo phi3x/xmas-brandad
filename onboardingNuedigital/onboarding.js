@@ -16,7 +16,7 @@ scriptNesting(Promise.all([
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-    const textFirstPopup = 'Hey, das ist ja gar nicht das Nürnberg Digital Festival! Da hat mich der Taxifahrer wohl am falschen Ort abgesetzt.\n\n[Tutorial folgen (~10 Minuten) oder überspringen?]';
+    const textFirstPopup = "Hey, das ist ja gar nicht das Nürnberg Digital Festival! Da hat mich der Taxifahrer wohl am falschen Ort abgesetzt.\n\n[Tutorial folgen (~10 Minuten) oder überspringen?]";
 
     // multiStrandedPopupConversation({
     //     zone: "start-popup",
@@ -39,8 +39,8 @@ scriptNesting(Promise.all([
         onlyOnce: true,
         zone: "start-popup",
         popupOptions: [{ label: "Folgen."},
-                        { label: "Überspringen",
-                            onclick: () => {
+                        { label: "Überspringen", 
+                            callback: () => {
                                 WA.openTab("https://zoom.us/download")
                          }
                       }]
