@@ -16,17 +16,31 @@ scriptNesting(Promise.all([
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-    const textFirstPopup = 'Hey, das ist ja gar nicht das Nürnberg Digital Festival! Da hat mich der Taxifahrer wohl am falschen Ort abgesetzt.';
+    const textFirstPopup = 'Hey, das ist ja gar nicht das Nürnberg Digital Festival! Da hat mich der Taxifahrer wohl am falschen Ort abgesetzt.\n\n[Tutorial folgen (~10 Minuten) oder überspringen?]';
 
-    popupInZone({
-        popupText: textFirstPopup,
+    multiStrandedPopupConversation({
+        zone: "start-popup",
         blocking: true,
         onlyOnce: true,
-        zone: "start-popup",
-        popupOptions: [{
-            label: "Hmpf."
+        data: [{
+            message: textFirstPopup,
+            buttons: ["Folgen.", {
+                        buttonText: "Überspringen",
+                        onclick: () => {
+                            WA.open("https://zoom.us/download")
+                        }
         }]
     })
+
+    // popupInZone({
+    //     popupText: textFirstPopup,
+    //     blocking: true,
+    //     onlyOnce: true,
+    //     zone: "start-popup",
+    //     popupOptions: [{
+    //         label: "Hmpf."
+    //     }]
+    // })
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     //////////////////////////////////                                2                                   //////////////////////////////////
@@ -67,9 +81,9 @@ scriptNesting(Promise.all([
         blocking: true,
         data: [{
             onDisplay: () => {
-                WA.sendChatMessage("先海空去場劇國", "Tourist #1")
+                WA.sendChatMessage("先海空去場劇國", "Tourist #1"),
                 setTimeout(() => {
-                    WA.sendChatMessage("Kia bela vido!", "Tourist #2")
+                    WA.sendChatMessage("Kia bela vido!", "Tourist #2"),
                 }, 4000)
                 setTimeout(() => {
                     WA.sendChatMessage("Je ne comprends pas un mot !", "Tourist #3")
