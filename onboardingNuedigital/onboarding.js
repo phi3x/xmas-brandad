@@ -18,30 +18,33 @@ scriptNesting(Promise.all([
 
     const textFirstPopup = 'Hey, das ist ja gar nicht das Nürnberg Digital Festival! Da hat mich der Taxifahrer wohl am falschen Ort abgesetzt.\n\n[Tutorial folgen (~10 Minuten) oder überspringen?]';
 
-    multiStrandedPopupConversation({
-        zone: "start-popup",
+    // multiStrandedPopupConversation({
+    //     zone: "start-popup",
+    //     blocking: true,
+    //     onlyOnce: true,
+    //     data: [{
+    //         message: textFirstPopup,
+    //         buttons: ["Folgen.", {
+    //                     buttonText: "Überspringen",
+    //                     onclick: () => {
+    //                         WA.openTab("https://zoom.us/download")
+    //                     }
+    //         }]
+    //     }]
+    // })
+
+    popupInZone({
+        popupText: textFirstPopup,
         blocking: true,
         onlyOnce: true,
-        data: [{
-            message: textFirstPopup,
-            buttons: ["Folgen.", {
+        zone: "start-popup",
+        popupOptions: ["Folgen.", {
                         buttonText: "Überspringen",
                         onclick: () => {
                             WA.openTab("https://zoom.us/download")
                         }
             }]
-        }]
     })
-
-    // popupInZone({
-    //     popupText: textFirstPopup,
-    //     blocking: true,
-    //     onlyOnce: true,
-    //     zone: "start-popup",
-    //     popupOptions: [{
-    //         label: "Hmpf."
-    //     }]
-    // })
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     //////////////////////////////////                                2                                   //////////////////////////////////
