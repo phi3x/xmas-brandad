@@ -53,7 +53,7 @@ module.exports = {
                     return
                 }
                 if(options.blocking) {
-                    WA.disablePlayerControl();
+                    WA.disablePlayerControls();
                 }
                 if(options.withCircle) {
                     WA.displayBubble();
@@ -68,7 +68,7 @@ module.exports = {
                         callback: () => {
                             try {
                                 if(options.blocking) {
-                                    WA.restorePlayerControl();
+                                    WA.restorePlayerControls();
                                 }
                                 if(options.withCircle) {
                                     WA.removeBubble();

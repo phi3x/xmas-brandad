@@ -1,4 +1,4 @@
-
+/// <reference path="./script-loader.js" />
 
 /**
  * @typedef {{
