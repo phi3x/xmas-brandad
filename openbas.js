@@ -31,3 +31,7 @@ activationInZone({
         WA.openCoWebSite(parts.join("."))
     }
 })
+
+WA.registerMenuCommand('miro', () => {
+    WA.openCoWebSite('https://jonnytest1.github.io/workadventuremap/scripts/pages/miro.html');
+});
