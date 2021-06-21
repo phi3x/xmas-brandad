@@ -6,21 +6,21 @@ var targetObjectTutoChat = 'tutoChat';
 var targetObjectTutoExplanation = 'tutoExplanation';
 var popUpExplanation = undefined;
 function launchTuto() {
-    WA.openPopup(targetObjectTutoBubble, textFirstPopup, [
+    WA.ui.openPopup(targetObjectTutoBubble, textFirstPopup, [
         {
             label: "Next",
             className: "popUpElement",
             callback: (popup) => {
                 popup.close();
 
-                WA.openPopup(targetObjectTutoChat, textSecondPopup, [
+                WA.ui.openPopup(targetObjectTutoChat, textSecondPopup, [
                     {
                         label: "Open Chat",
                         className: "popUpElement",
                         callback: (popup1) => {
-                            WA.sendChatMessage("Hey you can talk here too!", 'WA Guide');
+                            WA.chat.sendChatMessage("Hey you can talk here too!", 'WA Guide');
                             popup1.close();
-                            WA.openPopup("TutoFinal", "You are good to go! Go through the gate to meet the dev team and discover the features !", [
+                            WA.ui.openPopup("TutoFinal", "You are good to go! Go through the gate to meet the dev team and discover the features !", [
                                 {
                                     label: "Got it!",
                                     className: "success", callback: (popup2 => {
@@ -41,14 +41,14 @@ function launchTuto() {
 }
 
 
-WA.onEnterZone('popupZone', () => {
+WA.room.onEnterZone('popupZone', () => {
     WA.displayBubble();
     if(!isFirstTimeTuto) {
         isFirstTimeTuto = true;
         launchTuto();
     }
     else {
-        popUpExplanation = WA.openPopup(targetObjectTutoExplanation, 'Do you want to review the explanation?', [
+        popUpExplanation = WA.ui.openPopup(targetObjectTutoExplanation, 'Do you want to review the explanation?', [
             {
                 label: "No",
                 className: "error",
@@ -68,7 +68,7 @@ WA.onEnterZone('popupZone', () => {
     }
 });
 
-WA.onLeaveZone('popupZone', () => {
+WA.room.onLeaveZone('popupZone', () => {
     if(popUpExplanation !== undefined) popUpExplanation.close();
-    WA.removeBubble();
+    WA.ui.removeBubble();
 })

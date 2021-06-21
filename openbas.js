@@ -9,11 +9,11 @@
  */
 function activationInZone(options) {
     let messageObj;
-    WA.onEnterZone(options.zone, () => {
+    WA.room.onEnterZone(options.zone, () => {
         messageObj = WA.triggerMessage(options.message, options.onActivate)
     })
 
-    WA.onLeaveZone(options.zone, () => {
+    WA.room.onLeaveZone(options.zone, () => {
         if(messageObj) {
             WA.removeTriggerMessage(messageObj)
             messageObj = undefined
