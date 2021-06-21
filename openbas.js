@@ -28,10 +28,10 @@ activationInZone({
     message: "press 'space' to record time",
     onActivate: () => {
         const parts = [["https", 'sapserver-master'].join('://'), 'abnahme', "brandad", "de"]
-        WA.openCoWebSite(parts.join("."))
+        WA.nav.openCoWebSite(parts.join("."))
     }
 })
 
 WA.registerMenuCommand('miro', () => {
-    WA.openCoWebSite('https://jonnytest1.github.io/workadventuremap/scripts/pages/miro.html');
+    WA.nav.openCoWebSite('https://jonnytest1.github.io/workadventuremap/scripts/pages/miro.html');
 });

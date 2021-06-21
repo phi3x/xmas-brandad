@@ -3,7 +3,7 @@
 const skipTutorial = "/_/global/brandad-systems.github.io/workadventure-maps/openbas.json"
 
 WA.registerMenuCommand("Skip Tutorial", () => {
-    WA.goToRoom(skipTutorial)
+   WA.nav.goToRoom(skipTutorial)
 })
 module.exports = {
     skipTutorial

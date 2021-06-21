@@ -1,11 +1,11 @@
 var isFirstTimeTuto = false;
 var textFirstPopup = 'Hey ! This is how to start a discussion with someone ! You can be 4 max in a bubble.';
 var textSecondPopup = 'You can also use the chat to communicate ! ';
-var targetObjectTutoBubble ='Tutobubble';
-var targetObjectTutoChat ='tutoChat';
-var targetObjectTutoExplanation ='tutoExplanation';
+var targetObjectTutoBubble = 'Tutobubble';
+var targetObjectTutoChat = 'tutoChat';
+var targetObjectTutoExplanation = 'tutoExplanation';
 var popUpExplanation = undefined;
-function launchTuto (){
+function launchTuto() {
     WA.openPopup(targetObjectTutoBubble, textFirstPopup, [
         {
             label: "Next",
@@ -20,12 +20,12 @@ function launchTuto (){
                         callback: (popup1) => {
                             WA.sendChatMessage("Hey you can talk here too!", 'WA Guide');
                             popup1.close();
-                            WA.openPopup("TutoFinal","You are good to go! Go through the gate to meet the dev team and discover the features !",[
+                            WA.openPopup("TutoFinal", "You are good to go! Go through the gate to meet the dev team and discover the features !", [
                                 {
                                     label: "Got it!",
-                                    className : "success",callback:(popup2 => {
+                                    className: "success", callback: (popup2 => {
                                         popup2.close();
-                                        WA.restorePlayerControl();
+                                        WA.restorePlayerControls();
                                     })
                                 }
                             ])
@@ -36,14 +36,14 @@ function launchTuto (){
             }
         }
     ]);
-    WA.disablePlayerControl();
+    WA.disablePlayerControls();
 
 }
 
 
 WA.onEnterZone('popupZone', () => {
     WA.displayBubble();
-    if (!isFirstTimeTuto) {
+    if(!isFirstTimeTuto) {
         isFirstTimeTuto = true;
         launchTuto();
     }
@@ -69,6 +69,6 @@ WA.onEnterZone('popupZone', () => {
 });
 
 WA.onLeaveZone('popupZone', () => {
-    if (popUpExplanation !== undefined) popUpExplanation.close();
+    if(popUpExplanation !== undefined) popUpExplanation.close();
     WA.removeBubble();
 })
