@@ -56,11 +56,11 @@ module.exports = {
                     WA.disablePlayerControls();
                 }
                 if(options.withCircle) {
-                    WA.ui.displayBubble();
+                    WA.displayBubble();
                 }
                 lastOpened = Date.now();
 
-                popup = WA.ui.openPopup(options.objectLayerName, options.popupText, options.popupOptions.map(option => {
+                popup = WA.openPopup(options.objectLayerName, options.popupText, options.popupOptions.map(option => {
                     const callback = option.callback;
                     const popupOptions = {
                         ...option,
@@ -71,7 +71,7 @@ module.exports = {
                                     WA.restorePlayerControls();
                                 }
                                 if(options.withCircle) {
-                                    WA.ui.removeBubble();
+                                    WA.removeBubble();
                                 }
                                 if(callback) {
                                     callback(popup);
@@ -91,14 +91,14 @@ module.exports = {
 
 
 
-            WA.room.onEnterZone(options.zone, zoneEnter);
-            WA.room.onLeaveZone(options.zone, () => {
+            WA.onEnterZone(options.zone, zoneEnter);
+            WA.onLeaveZone(options.zone, () => {
                 if(popup) {
                     popup.close();
                     popup = undefined;
                 }
                 if(options.withCircle) {
-                    WA.ui.removeBubble()
+                    WA.removeBubble()
                 }
             });
 

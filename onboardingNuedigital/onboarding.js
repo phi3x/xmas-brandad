@@ -85,12 +85,12 @@ scriptNesting(Promise.all([
         blocking: true,
         data: [{
             onDisplay: () => {
-                WA.chat.sendChatMessage("先海空去場劇國", "Tourist #1"),
+                WA.sendChatMessage("先海空去場劇國", "Tourist #1"),
                 setTimeout(() => {
-                    WA.chat.sendChatMessage("Kia bela vido!", "Tourist #2")
+                    WA.sendChatMessage("Kia bela vido!", "Tourist #2")
                 }, 4000),
                 setTimeout(() => {
-                    WA.chat.sendChatMessage("Je ne comprends pas un mot !", "Tourist #3")
+                    WA.sendChatMessage("Je ne comprends pas un mot !", "Tourist #3")
                 }, 8000)
             },
             message: "Ich verstehe zwar kein Wort – aber scheinbar gibt es hier auch eine Chatfunktion!",
