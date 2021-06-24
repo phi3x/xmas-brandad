@@ -38,12 +38,13 @@ scriptNesting(Promise.all([
         blocking: true,
         onlyOnce: true,
         zone: "start-popup",
-        popupOptions: [{ label: "Folgen."},
-                        { label: "Überspringen", 
-                            callback: () => {
-                                WA.goToPage("https://workadventure.brandad-systems.de/_/global/brandad-systems.github.io/workadventure-maps/onboardingNuedigital/onboarding-ubahn.json")
-                         }
-                      }]
+        popupOptions: [{ label: "Folgen." },
+        {
+            label: "Überspringen",
+            callback: () => {
+                WA.goToPage("https://workadventure.brandad-systems.de/_/global/brandad-systems.github.io/workadventure-maps/onboardingNuedigital/onboarding-ubahn.json")
+            }
+        }]
     })
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -52,13 +53,15 @@ scriptNesting(Promise.all([
 
     let callPlayerPopupIndex = 0
 
-    popupInZone({
-        zone: "call-player",
-        openCondition: () => callPlayerPopupIndex++ == 0,
-        popupText: 'Hallo, hier drüben! Komm doch mal kurz in meinen Kreis, damit ich mit dir sprechen kann!',
-        initiallyOpened: true,
-        popupOptions: []
-    });
+    setTimeout(() => {
+        popupInZone({
+            zone: "call-player",
+            openCondition: () => callPlayerPopupIndex++ == 0,
+            popupText: 'Hallo, hier drüben! Komm doch mal kurz in meinen Kreis, damit ich mit dir sprechen kann!',
+            initiallyOpened: true,
+            popupOptions: []
+        });
+    }, 1000)
 
 
     singleStrandedPopupConversation({
@@ -86,12 +89,12 @@ scriptNesting(Promise.all([
         data: [{
             onDisplay: () => {
                 WA.sendChatMessage("先海空去場劇國", "Tourist #1"),
-                setTimeout(() => {
-                    WA.sendChatMessage("Kia bela vido!", "Tourist #2")
-                }, 4000),
-                setTimeout(() => {
-                    WA.sendChatMessage("Je ne comprends pas un mot !", "Tourist #3")
-                }, 8000)
+                    setTimeout(() => {
+                        WA.sendChatMessage("Kia bela vido!", "Tourist #2")
+                    }, 4000),
+                    setTimeout(() => {
+                        WA.sendChatMessage("Je ne comprends pas un mot !", "Tourist #3")
+                    }, 8000)
             },
             message: "Ich verstehe zwar kein Wort – aber scheinbar gibt es hier auch eine Chatfunktion!",
             buttons: "Cool!",
