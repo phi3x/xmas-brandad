@@ -42,7 +42,7 @@ scriptNesting(Promise.all([
         {
             label: "Überspringen",
             callback: () => {
-                WA.goToPage("https://workadventure.brandad-systems.de/_/global/brandad-systems.github.io/workadventure-maps/onboardingNuedigital/onboarding-ubahn.json")
+                WA.goToPage("https://play.workadventu.re/_/global/andreasucs.github.io/ndf_festivalmap/map.json")
             }
         }]
     })

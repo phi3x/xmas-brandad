@@ -521,7 +521,7 @@
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":"..\/onboardingNuedigital\/onboarding.json#start-teleporter-beach"
+                         "value":"\/_\/global\/andreasucs.github.io\/ndf_festivalmap\/map.json#start_ndf_rooms"
                         }],
                  "type":"tilelayer",
                  "visible":true,
