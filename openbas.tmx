@@ -4,11 +4,7 @@
   <export target="openbas.json" format="json"/>
  </editorsettings>
  <properties>
-  <property name="endLat" type="float" value="49.470397"/>
-  <property name="endLon" type="float" value="10.992639"/>
   <property name="script" value="https://jonnytest1.github.io/workadventuremap/scripts/index.js?url=./user-update.js,https://brandad-systems.github.io/workadventure-maps/openbas.js"/>
-  <property name="startLat" type="float" value="49.47017"/>
-  <property name="startLon" type="float" value="10.992274"/>
  </properties>
  <tileset firstgid="1" name="PathAndObjects" tilewidth="32" tileheight="32" tilecount="256" columns="16">
   <image source="PathAndObjects.png" width="512" height="512"/>
