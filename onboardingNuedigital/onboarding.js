@@ -9,7 +9,7 @@ scriptNesting(Promise.all([
     new Promise(res => setTimeout(res, 1500))
 ]), async imports => {
 
-    const [{ popupInZone }, { singleStrandedPopupConversation, multiStrandedPopupConversation }] = await imports
+    const [{ popupInZone }, { singleStrandedPopupConversation, multiStrandedPopupConversation }, { skipTutorial }] = await imports
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     //////////////////////////////////                                1                                   //////////////////////////////////
@@ -42,7 +42,7 @@ scriptNesting(Promise.all([
         {
             label: "Überspringen",
             callback: () => {
-                WA.goToPage("https://play.workadventu.re/_/global/andreasucs.github.io/ndf_festivalmap/map.json")
+                WA.goToPage(skipTutorial)
             }
         }]
     })
