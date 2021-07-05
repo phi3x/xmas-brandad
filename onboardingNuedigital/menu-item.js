@@ -2,9 +2,11 @@
 
 const skipTutorial = "/@/ucs/ucs/ndf_festival_zentral"
 
-WA.registerMenuCommand("Skip Tutorial", () => {
-   WA.nav.goToRoom(skipTutorial)
-})
+if(WA.registerMenuCommand) {
+    WA.registerMenuCommand("Skip Tutorial", () => {
+        WA.nav.goToRoom(skipTutorial)
+    })
+}
 module.exports = {
     skipTutorial
 }
