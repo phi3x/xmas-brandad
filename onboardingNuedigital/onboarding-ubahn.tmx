@@ -697,7 +697,7 @@
  </layer>
  <layer id="29" name="exit-festival" width="51" height="56">
   <properties>
-   <property name="exitUrl" value="/_/global/andreasucs.github.io/ndf_festivalmap/map.json"/>
+   <property name="exitUrl" value="/@/ucs/ucs/ndf_festival_zentral"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,

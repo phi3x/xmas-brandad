@@ -266,7 +266,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/_\/global\/andreasucs.github.io\/ndf_festivalmap\/map.json"
+                 "value":"\/@\/ucs\/ucs\/ndf_festival_zentral"
                 }],
          "type":"tilelayer",
          "visible":true,

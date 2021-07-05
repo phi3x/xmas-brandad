@@ -1,6 +1,6 @@
 /// <reference path="../../workadventure/front/src/iframe_api.ts" />
 
-const skipTutorial = "/_/global/andreasucs.github.io/ndf_festivalmap/map.json"
+const skipTutorial = "/@/ucs/ucs/ndf_festival_zentral"
 
 WA.registerMenuCommand("Skip Tutorial", () => {
    WA.nav.goToRoom(skipTutorial)

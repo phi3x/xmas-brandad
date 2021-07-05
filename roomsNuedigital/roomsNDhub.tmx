@@ -1728,7 +1728,7 @@
  <group id="19" name="exit-layers">
   <layer id="20" name="exit-rooms" width="69" height="83">
    <properties>
-    <property name="exitUrl" value="/_/global/andreasucs.github.io/ndf_festivalmap/map.json#start_ndf_rooms"/>
+    <property name="exitUrl" value="/@/ucs/ucs/ndf_festival_zentral#start_ndf_rooms"/>
    </properties>
    <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
