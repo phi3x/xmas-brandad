@@ -248,7 +248,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"..\/onboardingNuedigital\/onboarding-ubahn.json#start-teleporter-office"
+                 "value":"\/_\/global\/brandad-systems.github.io\/workadventure-maps\/onboardingNuedigital\/onboarding-ubahn.json#start-teleporter-office"
                 }],
          "type":"tilelayer",
          "visible":true,

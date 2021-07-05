@@ -206,7 +206,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"..\/onboardingNuedigital\/onboarding.json#start-teleporter-beach"
+                 "value":"\/_\/global\/brandad-systems.github.io\/workadventure-maps\/onboardingNuedigital\/onboardingNuedigital\/onboarding.json#start-teleporter-beach"
                 }],
          "type":"tilelayer",
          "visible":true,
