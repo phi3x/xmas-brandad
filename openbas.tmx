@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.6.0" orientation="orthogonal" renderorder="right-down" width="82" height="47" tilewidth="32" tileheight="32" infinite="0" nextlayerid="40" nextobjectid="1">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="82" height="47" tilewidth="32" tileheight="32" infinite="0" nextlayerid="40" nextobjectid="1">
  <editorsettings>
   <export target="openbas.json" format="json"/>
  </editorsettings>
@@ -1146,7 +1146,8 @@
    </properties>
   </tile>
  </tileset>
- <group id="32" name="collisions">
+ <tileset firstgid="10430" source="xmas.tsx"/>
+ <group id="32" name="collisions" visible="0">
   <layer id="27" name="collisions-c" width="82" height="47">
    <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -1250,7 +1251,7 @@
 </data>
   </layer>
  </group>
- <group id="34" name="zones">
+ <group id="34" name="zones" visible="0">
   <layer id="33" name="zone-timestamp" width="82" height="47">
    <properties>
     <property name="zone" value="timestamp"/>
@@ -1306,7 +1307,7 @@
 </data>
   </layer>
  </group>
- <group id="31" name="jitsi">
+ <group id="31" name="jitsi" visible="0">
   <layer id="14" name="jitsiKaffekueche" width="82" height="47">
    <properties>
     <property name="jitsiConfig" value="{&quot;startWithAudioMuted&quot;:false,&quot;startAudioMuted&quot;:6,&quot;disableJoinLeaveSounds&quot;:true,&quot;startVideoMuted&quot;:26,&quot;startWithVideoMuted&quot;:false}"/>
@@ -1532,7 +1533,7 @@
 </data>
   </layer>
  </group>
- <group id="28" name="start">
+ <group id="28" name="start" visible="0">
   <layer id="22" name="start-amphitheater" width="82" height="47">
    <properties>
     <property name="startLayer" type="bool" value="true"/>
@@ -1801,7 +1802,7 @@
 </data>
   </layer>
  </group>
- <layer id="11" name="info_Themenwand" width="82" height="47">
+ <layer id="11" name="info_Themenwand" width="82" height="47" visible="0">
   <properties>
    <property name="openWebsite" value="https://alexbrandad.github.io/testmap-gh-pages-first-test/themenwand.html"/>
   </properties>
@@ -1855,7 +1856,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="15" name="info_Anleitung" width="82" height="47">
+ <layer id="15" name="info_Anleitung" width="82" height="47" visible="0">
   <properties>
    <property name="openWebsite" value="https://alexbrandad.github.io/testmap-gh-pages-first-test/Anleitung.png"/>
   </properties>
@@ -1909,7 +1910,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <group id="25" name="exit">
+ <group id="25" name="exit" visible="0">
   <layer id="17" name="exit-world-map" width="82" height="47">
    <properties>
     <property name="exitSceneUrl" value="/_/global/pi4.e6azumuvyiabvs9s.myfritz.net/nodetype/rest/mapserver/site.json"/>
@@ -2232,7 +2233,7 @@
 1777,1775,1775,1775,1775,1775,1775,1775,1775,1775,1775,1775,1775,1775,1775,1775,1775,1775,1775,1775,1775,1775,1775,1775,1775,1775,1775,1775,1775,1775,1775,1775,1738,1775,1775,1775,1775,1775,1738,1775,1775,1775,1775,1775,1738,1775,1775,1775,1775,1775,1775,1775,1775,1775,1775,1775,1775,1775,1775,1775,1775,1775,1775,1775,1775,1775,1775,1775,1775,1775,1775,1775,1778,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <group id="35" name="down-stairs">
+ <group id="35" name="down-stairs" visible="0">
   <layer id="39" name="wall" width="82" height="47">
    <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -2438,7 +2439,7 @@
 </data>
   </layer>
  </group>
- <layer id="3" name="top" width="82" height="47">
+ <layer id="3" name="top" width="82" height="47" visible="0">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,1754,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,5070,5071,1773,5985,5986,0,5008,5009,5010,0,0,0,1757,0,0,0,0,0,1757,0,0,0,5070,5071,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7436,7421,7421,7421,7421,7421,7421,7421,0,
@@ -2489,7 +2490,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="24" name="stairs" width="82" height="47">
+ <layer id="24" name="stairs" width="82" height="47" visible="0">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -2540,7 +2541,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="4" name="furniture" width="82" height="47">
+ <layer id="4" name="furniture" width="82" height="47" visible="0">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3932,1712,0,0,0,0,0,1712,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -2591,7 +2592,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="13" name="textarea" width="82" height="47">
+ <layer id="13" name="textarea" width="82" height="47" visible="0">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -2642,7 +2643,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="16" name="bretzel" width="82" height="47">
+ <layer id="16" name="bretzel" width="82" height="47" visible="0">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -2693,8 +2694,8 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="2" name="floorLayer"/>
- <layer id="10" name="overwrite" width="82" height="47">
+ <objectgroup id="2" name="floorLayer" visible="0"/>
+ <layer id="10" name="overwrite" width="82" height="47" visible="0">
   <properties>
    <property name="depth" type="int" value="3"/>
   </properties>
