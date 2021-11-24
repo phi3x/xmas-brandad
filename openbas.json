@@ -337,7 +337,7 @@
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":"\/xmas\/gamestage.json"
+                         "value":".\/xmas\/gamestage.json#start"
                         }],
                  "type":"tilelayer",
                  "visible":true,
