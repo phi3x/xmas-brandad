@@ -12,7 +12,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"openbas.json"
+                 "value":"..\/openbas.json"
                 }],
          "type":"tilelayer",
          "visible":true,
