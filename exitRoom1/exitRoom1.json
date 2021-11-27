@@ -68,7 +68,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/raw.githubusercontent.com\/phi3x\/xmas-brandad\/xmas2021\/exitRoom1\/hint.html"
+                 "value":"https:\/\/raw.githubusercontent.com\/phi3x\/xmas-brandad\/xmas2021\/exitRoom1\/testHint.png"
                 }],
          "type":"tilelayer",
          "visible":true,
