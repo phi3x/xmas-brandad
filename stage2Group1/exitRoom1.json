@@ -17,12 +17,12 @@
                 {
                  "name":"doorVariable",
                  "type":"string",
-                 "value":"second_Door"
+                 "value":"first_Door"
                 }, 
                 {
                  "name":"zone",
                  "type":"string",
-                 "value":"door2_open_zone"
+                 "value":"door1_open_zone"
                 }],
          "type":"tilelayer",
          "visible":true,
