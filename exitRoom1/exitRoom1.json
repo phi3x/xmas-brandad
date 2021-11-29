@@ -68,7 +68,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/raw.githubusercontent.com\/phi3x\/phi3x.github.io\/main\/hint.html"
+                 "value":"https:\/\/raw.githubusercontent.com\/phi3x\/phi3x.github.io\/main\/testHint.png"
                 }],
          "type":"tilelayer",
          "visible":true,
