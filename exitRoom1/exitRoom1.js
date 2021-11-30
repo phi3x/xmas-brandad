@@ -1,8 +1,8 @@
 let helloWorldPopup;
 
 // Open the popup when we enter a given zone
-helloWorldPopup = WA.room.onEnterLayer("hintRoom1").subscribe(() => {
-    WA.ui.openPopup("popupRectangle", 'Hello world!', [{
+helloWorldPopup = WA.room.onEnterLayer("hints").subscribe(() => {
+    WA.ui.openPopup("hintRoom1", 'Hello world!', [{
         label: "Close",
         className: "primary",
         callback: (popup) => {
@@ -13,6 +13,6 @@ helloWorldPopup = WA.room.onEnterLayer("hintRoom1").subscribe(() => {
 });
 
 // Close the popup when we leave the zone.
-WA.room.onLeaveLayer("hintRoom1").subscribe(() => {
+WA.room.onLeaveLayer("hints").subscribe(() => {
     helloWorldPopup.close();
 })
