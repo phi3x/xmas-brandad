@@ -1,3 +1,6 @@
+import { bootstrapExtra } from "@workadventure/scripting-api-extra";
+// Calling bootstrapExtra will initiliaze all the "custom properties"
+bootstrapExtra();
 let helloWorldPopup;
 
 // Open the popup when we enter a given zone
