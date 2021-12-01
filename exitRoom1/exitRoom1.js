@@ -2,6 +2,7 @@ import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 // Calling bootstrapExtra will initiliaze all the "custom properties"
 bootstrapExtra();
 let helloWorldPopup;
+WA.chat.sendChatMessage('Hello world', 'Mr Robot');
 
 // Open the popup when we enter a given zone
 helloWorldPopup = WA.room.onEnterLayer("hints").subscribe(() => {
