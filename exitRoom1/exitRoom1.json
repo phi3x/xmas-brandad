@@ -96,7 +96,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":".finalGameRoom\/finalRoom.json"
+                 "value":"..\/finalGameRoom\/finalRoom.json"
                 }],
          "type":"tilelayer",
          "visible":true,
