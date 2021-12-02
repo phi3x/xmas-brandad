@@ -138,7 +138,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"http:\/\/hildel.com\/wp-content\/uploads\/2021\/12\/testHint.001.png"
+                 "value":"https:\/\/hildel.com\/wp-content\/uploads\/2021\/12\/testHint.001.png"
                 }],
          "type":"tilelayer",
          "visible":true,
