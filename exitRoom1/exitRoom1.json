@@ -99,7 +99,7 @@
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":"..\/etage3\/start-spiral-etage2.json"
+                         "value":"..\/..\/etage3\/start-spiral-etage2.json"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -3346,6 +3346,60 @@
                 }, 
                 {
                  "id":655,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":816,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":817,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":818,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":824,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":825,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":826,
                  "properties":[
                         {
                          "name":"collides",
