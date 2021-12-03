@@ -355,7 +355,7 @@
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":".\/exitRoom1\/exitRoom1.json"
+                         "value":".\/stage2Start\/stage2Start.json"
                         }],
                  "type":"tilelayer",
                  "visible":true,
