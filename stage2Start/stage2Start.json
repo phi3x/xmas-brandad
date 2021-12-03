@@ -33,7 +33,7 @@
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":"..\/exitRoom1\/exitRoom1.json"
+                         "value":".\/exitRoom1\/exitRoom1.json"
                         }],
                  "type":"tilelayer",
                  "visible":true,
