@@ -86,6 +86,11 @@
          "opacity":1,
          "properties":[
                 {
+                 "name":"openTab",
+                 "type":"string",
+                 "value":"_blank"
+                }, 
+                {
                  "name":"openWebsite",
                  "type":"string",
                  "value":"https:\/\/hildel.com\/wp-content\/uploads\/2021\/12\/brandits.png"
