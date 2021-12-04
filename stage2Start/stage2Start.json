@@ -10,7 +10,7 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"exitUrl",
+                 "name":"exitSceneUrl",
                  "type":"string",
                  "value":"..\/exitRoom1\/exitRoom1.json"
                 }],
