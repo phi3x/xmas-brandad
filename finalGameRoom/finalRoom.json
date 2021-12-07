@@ -68,7 +68,7 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"openWebsite",
+                 "name":"openTab",
                  "type":"string",
                  "value":"https:\/\/hildel.com\/wp-content\/uploads\/2021\/12\/brandits.png"
                 }],
@@ -88,12 +88,7 @@
                 {
                  "name":"openTab",
                  "type":"string",
-                 "value":"_blank"
-                }, 
-                {
-                 "name":"openWebsite",
-                 "type":"string",
-                 "value":"https:\/\/hildel.com\/wp-content\/uploads\/2021\/12\/Kaikaku.png"
+                 "value":"https:\/\/hildel.com\/wp-content\/uploads\/2021\/12\/perAnhalter.png"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -111,12 +106,7 @@
                 {
                  "name":"openTab",
                  "type":"string",
-                 "value":"_blank"
-                }, 
-                {
-                 "name":"openWebsite",
-                 "type":"string",
-                 "value":"https:\/\/hildel.com\/wp-content\/uploads\/2021\/12\/Everest.png"
+                 "value":"https:\/\/hildel.com\/wp-content\/uploads\/2021\/12\/perAnhalter.png"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -133,11 +123,6 @@
          "properties":[
                 {
                  "name":"openTab",
-                 "type":"string",
-                 "value":"_blank"
-                }, 
-                {
-                 "name":"openWebsite",
                  "type":"string",
                  "value":"https:\/\/hildel.com\/wp-content\/uploads\/2021\/12\/perAnhalter.png"
                 }],
@@ -156,11 +141,6 @@
          "properties":[
                 {
                  "name":"openTab",
-                 "type":"string",
-                 "value":"_blank"
-                }, 
-                {
-                 "name":"openWebsite",
                  "type":"string",
                  "value":"https:\/\/hildel.com\/wp-content\/uploads\/2021\/12\/ERMa.png"
                 }],
