@@ -88,7 +88,7 @@
                 {
                  "name":"openTab",
                  "type":"string",
-                 "value":"https:\/\/hildel.com\/wp-content\/uploads\/2021\/12\/perAnhalter.png"
+                 "value":"https:\/\/hildel.com\/wp-content\/uploads\/2021\/12\/Kaikaku.jpg"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -106,7 +106,7 @@
                 {
                  "name":"openTab",
                  "type":"string",
-                 "value":"https:\/\/hildel.com\/wp-content\/uploads\/2021\/12\/perAnhalter.png"
+                 "value":"https:\/\/hildel.com\/wp-content\/uploads\/2021\/12\/Everest.jpg"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -142,7 +142,7 @@
                 {
                  "name":"openTab",
                  "type":"string",
-                 "value":"https:\/\/hildel.com\/wp-content\/uploads\/2021\/12\/ERMa.png"
+                 "value":"https:\/\/hildel.com\/wp-content\/uploads\/2021\/12\/ERMa.jpg"
                 }],
          "type":"tilelayer",
          "visible":true,
