@@ -40,7 +40,7 @@
                 {
                  "name":"code",
                  "type":"string",
-                 "value":"123"
+                 "value":"900"
                 }, 
                 {
                  "name":"doorVariable",
@@ -68,7 +68,7 @@
                 {
                  "name":"code",
                  "type":"string",
-                 "value":"123"
+                 "value":"456"
                 }, 
                 {
                  "name":"doorVariable",
@@ -96,7 +96,7 @@
                 {
                  "name":"code",
                  "type":"string",
-                 "value":"123"
+                 "value":"5"
                 }, 
                 {
                  "name":"doorVariable",
