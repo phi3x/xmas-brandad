@@ -145,7 +145,7 @@
                         {
                          "name":"exitSceneUrl",
                          "type":"string",
-                         "value":".\/stage2Start\/stage2Start.json"
+                         "value":"..\/stage2Start\/stage2Start.json"
                         }],
                  "type":"tilelayer",
                  "visible":true,
