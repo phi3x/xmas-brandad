@@ -12,7 +12,7 @@
                 {
                  "name":"code",
                  "type":"string",
-                 "value":"64571"
+                 "value":"84571"
                 }, 
                 {
                  "name":"doorVariable",
@@ -93,6 +93,11 @@
          "name":"door3a_open_zone",
          "opacity":1,
          "properties":[
+                {
+                 "name":"autoClose",
+                 "type":"bool",
+                 "value":true
+                }, 
                 {
                  "name":"code",
                  "type":"string",
