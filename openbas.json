@@ -461,7 +461,7 @@
                  "opacity":1,
                  "properties":[
                         {
-                         "name":"exitUrl",
+                         "name":"exitSceneUrl",
                          "type":"string",
                          "value":"..\/finalGameRoom\/finalRoom.json"
                         }],
