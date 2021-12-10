@@ -463,7 +463,7 @@
                         {
                          "name":"exitSceneUrl",
                          "type":"string",
-                         "value":"..\/finalGameRoom\/finalRoom.json"
+                         "value":"..\/xmas2021\/finalGameRoom\/finalRoom.json"
                         }],
                  "type":"tilelayer",
                  "visible":true,
